@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Local Claude Code / agent files (don't publish personal config)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Node (only relevant if you add tooling later)
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.env
+.env.*
